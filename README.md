@@ -7,20 +7,20 @@ Currently working on the first project.
 - [Project 1](https://github.com/atkatchev/pneumonia-detection-from-chest-x-rays) - Analyze data from the NIH Chest X-ray Dataset and train a CNN to classify a given chest x-ray for the presence or absence of pneumonia with human radiologist-level accuracy that can be prepared for submission to the FDA for 510(k) clearance as software as a medical device.
 Project Highlight
 
--    recommend appropriate imaging modalities for common clinical applications of 2D medical imaging
--    perform exploratory data analysis (EDA) on medical imaging data to inform model training and explain model performance
--    establish the appropriate ‘ground truth’ methodologies for training algorithms to label medical images
--    extract images from a DICOM dataset
--    train common CNN architectures to classify 2D medical images
--    translate outputs of medical imaging models for use by a clinician
--    plan necessary validations to prepare a medical imaging model for regulatory approval
+    -    recommend appropriate imaging modalities for common clinical applications of 2D medical imaging
+    -    perform exploratory data analysis (EDA) on medical imaging data to inform model training and explain model performance
+    -    establish the appropriate ‘ground truth’ methodologies for training algorithms to label medical images
+    -    extract images from a DICOM dataset
+    -    train common CNN architectures to classify 2D medical images
+    -    translate outputs of medical imaging models for use by a clinician
+    -    plan necessary validations to prepare a medical imaging model for regulatory approval
 
-File descriptions
--    EDA.ipynb: This is the file where Exploratory Data Analysis of, visualizing, summarizing and interpreting the dataset was done 
--    Build and train model.ipynb: This is the file where the model was built and trained.
--    Inference.ipynb: This is the file where clinical workflow integration was performed.
--    .dcm files: They are the test files to test the clinical workflow integration.
--    FDA_Submission_Template.md: This is the template used to create the FDA submission. Also saved as a .pdf file.
+- File descriptions
+    -    EDA.ipynb: This is the file where Exploratory Data Analysis of, visualizing, summarizing and interpreting the dataset was done 
+    -    Build and train model.ipynb: This is the file where the model was built and trained.
+    -    Inference.ipynb: This is the file where clinical workflow integration was performed.
+    -    .dcm files: They are the test files to test the clinical workflow integration.
+    -    FDA_Submission_Template.md: This is the template used to create the FDA submission. Also saved as a .pdf file.
 
 
 # Link
